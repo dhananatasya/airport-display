@@ -1,0 +1,145 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+
+  background: linear-gradient(135deg, #2b9ed8, #1e3a8a);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTAINER */
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+/* LOGO */
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  height: 70px;
+}
+
+/* LEFT SIDE */
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+/* JAM */
+.clock {
+  display: flex;
+  align-items: baseline;
+  font-size: 180px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+/* WIB */
+.timezone {
+  font-size: 80px;
+  margin-top: -10px;
+}
+
+/* KOTA */
+.city {
+  font-size: 50px;
+  color: #dbeafe;
+}
+
+/* RIGHT CARD */
+.right-card {
+  width: 500px;
+  padding: 40px;
+  border-radius: 25px;
+
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* GARIS DIAGONAL */
+.right-card::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 2px;
+  background: rgba(255,255,255,0.3);
+  transform: rotate(25deg);
+  top: 50%;
+  left: -50%;
+}
+
+/* WEATHER */
+.weather-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.weather-icon {
+  width: 70px;
+}
+
+/* SUHU */
+.temp {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* DESKRIPSI */
+.desc {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+/* DATE SECTION */
+.date-section {
+  margin-top: 30px;
+}
+
+/* HARI */
+.day {
+  font-size: 18px;
+  letter-spacing: 2px;
+  opacity: 0.9;
+}
+
+/* TANGGAL */
+.date {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.logo {
+  position: absolute;
+  top: 3vw;
+  left: 4vw;
+  height: 4vw;
+  object-fit: contain;
+}
+

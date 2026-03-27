@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Display</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- LOGO -->
+  <img src="assets/img/logo.png" class="logo" alt="Logo">
+
+  <!-- LEFT SIDE -->
+  <div class="left">
+
+    <!-- JAM -->
+    <div class="clock">
+      <span class="time-main">00:00</span>
+      <span class="seconds">:00</span>
+    </div>
+
+    <!-- TIMEZONE -->
+    <div class="timezone">WIB</div>
+
+    <!-- KOTA (AUTO) -->
+    <div class="city">-</div>
+  </div>
+
+  <!-- RIGHT CARD -->
+  <div class="right-card">
+
+    <!-- WEATHER -->
+    <div class="weather-section">
+      <img class="weather-icon" src="" alt="weather" />
+      <div>
+        <div class="temp">-</div>
+        <div class="desc">-</div>
+      </div>
+    </div>
+
+    <!-- DATE -->
+    <div class="date-section">
+      <div class="day">-</div>
+      <div class="date">-</div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- JS -->
+<script src="config/config.js"></script>
+<script src="assets/js/clock.js"></script>
+<script src="assets/js/weather.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
